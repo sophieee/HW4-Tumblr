@@ -19,6 +19,20 @@
 		ED438A5B195D3AB800E0557E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED438A43195D3AB800E0557E /* UIKit.framework */; };
 		ED438A63195D3AB800E0557E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED438A61195D3AB800E0557E /* InfoPlist.strings */; };
 		ED438A65195D3AB800E0557E /* HW4_TumblrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED438A64195D3AB800E0557E /* HW4_TumblrTests.m */; };
+		ED438A71195D3AD500E0557E /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED438A6F195D3AD500E0557E /* TabViewController.m */; };
+		ED438A72195D3AD500E0557E /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED438A70195D3AD500E0557E /* TabViewController.xib */; };
+		ED438A76195D3AF600E0557E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED438A74195D3AF600E0557E /* HomeViewController.m */; };
+		ED438A77195D3AF600E0557E /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED438A75195D3AF600E0557E /* HomeViewController.xib */; };
+		ED438A7B195D3AFF00E0557E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED438A79195D3AFF00E0557E /* SearchViewController.m */; };
+		ED438A7C195D3AFF00E0557E /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED438A7A195D3AFF00E0557E /* SearchViewController.xib */; };
+		ED438A80195D3B0E00E0557E /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED438A7E195D3B0E00E0557E /* ComposeViewController.m */; };
+		ED438A81195D3B0E00E0557E /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED438A7F195D3B0E00E0557E /* ComposeViewController.xib */; };
+		ED438A85195D3B1900E0557E /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED438A83195D3B1900E0557E /* AccountViewController.m */; };
+		ED438A86195D3B1900E0557E /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED438A84195D3B1900E0557E /* AccountViewController.xib */; };
+		ED438A8A195D3B2300E0557E /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED438A88195D3B2300E0557E /* TrendingViewController.m */; };
+		ED438A8B195D3B2300E0557E /* TrendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED438A89195D3B2300E0557E /* TrendingViewController.xib */; };
+		ED438A8F1960FDF900E0557E /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED438A8D1960FDF900E0557E /* LogInViewController.m */; };
+		ED438A901960FDF900E0557E /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED438A8E1960FDF900E0557E /* LogInViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,27 @@
 		ED438A60195D3AB800E0557E /* HW4 TumblrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW4 TumblrTests-Info.plist"; sourceTree = "<group>"; };
 		ED438A62195D3AB800E0557E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED438A64195D3AB800E0557E /* HW4_TumblrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW4_TumblrTests.m; sourceTree = "<group>"; };
+		ED438A6E195D3AD500E0557E /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		ED438A6F195D3AD500E0557E /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		ED438A70195D3AD500E0557E /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		ED438A73195D3AF600E0557E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		ED438A74195D3AF600E0557E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		ED438A75195D3AF600E0557E /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		ED438A78195D3AFF00E0557E /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		ED438A79195D3AFF00E0557E /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		ED438A7A195D3AFF00E0557E /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		ED438A7D195D3B0E00E0557E /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		ED438A7E195D3B0E00E0557E /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		ED438A7F195D3B0E00E0557E /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
+		ED438A82195D3B1900E0557E /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		ED438A83195D3B1900E0557E /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		ED438A84195D3B1900E0557E /* AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		ED438A87195D3B2300E0557E /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingViewController.h; sourceTree = "<group>"; };
+		ED438A88195D3B2300E0557E /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingViewController.m; sourceTree = "<group>"; };
+		ED438A89195D3B2300E0557E /* TrendingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrendingViewController.xib; sourceTree = "<group>"; };
+		ED438A8C1960FDF900E0557E /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		ED438A8D1960FDF900E0557E /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		ED438A8E1960FDF900E0557E /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +146,27 @@
 				ED438A4F195D3AB800E0557E /* AppDelegate.m */,
 				ED438A51195D3AB800E0557E /* Images.xcassets */,
 				ED438A46195D3AB800E0557E /* Supporting Files */,
+				ED438A6E195D3AD500E0557E /* TabViewController.h */,
+				ED438A6F195D3AD500E0557E /* TabViewController.m */,
+				ED438A70195D3AD500E0557E /* TabViewController.xib */,
+				ED438A73195D3AF600E0557E /* HomeViewController.h */,
+				ED438A74195D3AF600E0557E /* HomeViewController.m */,
+				ED438A75195D3AF600E0557E /* HomeViewController.xib */,
+				ED438A78195D3AFF00E0557E /* SearchViewController.h */,
+				ED438A79195D3AFF00E0557E /* SearchViewController.m */,
+				ED438A7A195D3AFF00E0557E /* SearchViewController.xib */,
+				ED438A7D195D3B0E00E0557E /* ComposeViewController.h */,
+				ED438A7E195D3B0E00E0557E /* ComposeViewController.m */,
+				ED438A7F195D3B0E00E0557E /* ComposeViewController.xib */,
+				ED438A82195D3B1900E0557E /* AccountViewController.h */,
+				ED438A83195D3B1900E0557E /* AccountViewController.m */,
+				ED438A84195D3B1900E0557E /* AccountViewController.xib */,
+				ED438A87195D3B2300E0557E /* TrendingViewController.h */,
+				ED438A88195D3B2300E0557E /* TrendingViewController.m */,
+				ED438A89195D3B2300E0557E /* TrendingViewController.xib */,
+				ED438A8C1960FDF900E0557E /* LogInViewController.h */,
+				ED438A8D1960FDF900E0557E /* LogInViewController.m */,
+				ED438A8E1960FDF900E0557E /* LogInViewController.xib */,
 			);
 			path = "HW4 Tumblr";
 			sourceTree = "<group>";
@@ -220,7 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED438A4A195D3AB800E0557E /* InfoPlist.strings in Resources */,
+				ED438A86195D3B1900E0557E /* AccountViewController.xib in Resources */,
+				ED438A901960FDF900E0557E /* LogInViewController.xib in Resources */,
+				ED438A81195D3B0E00E0557E /* ComposeViewController.xib in Resources */,
 				ED438A52195D3AB800E0557E /* Images.xcassets in Resources */,
+				ED438A72195D3AD500E0557E /* TabViewController.xib in Resources */,
+				ED438A8B195D3B2300E0557E /* TrendingViewController.xib in Resources */,
+				ED438A7C195D3AFF00E0557E /* SearchViewController.xib in Resources */,
+				ED438A77195D3AF600E0557E /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED438A71195D3AD500E0557E /* TabViewController.m in Sources */,
 				ED438A50195D3AB800E0557E /* AppDelegate.m in Sources */,
+				ED438A85195D3B1900E0557E /* AccountViewController.m in Sources */,
+				ED438A7B195D3AFF00E0557E /* SearchViewController.m in Sources */,
+				ED438A80195D3B0E00E0557E /* ComposeViewController.m in Sources */,
+				ED438A8F1960FDF900E0557E /* LogInViewController.m in Sources */,
+				ED438A8A195D3B2300E0557E /* TrendingViewController.m in Sources */,
 				ED438A4C195D3AB800E0557E /* main.m in Sources */,
+				ED438A76195D3AF600E0557E /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +511,7 @@
 				ED438A6A195D3AB800E0557E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED438A6B195D3AB800E0557E /* Build configuration list for PBXNativeTarget "HW4 TumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +520,7 @@
 				ED438A6D195D3AB800E0557E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
